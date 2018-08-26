@@ -1,0 +1,114 @@
+\documentclass{article}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\begin{document}
+  
+  \newcommand{\resumesection}[1]{\noindent \textbf{{\large #1}}}
+  \newcommand{\breather}{\vspace{0.15in}}
+  \newcommand{\ctilde}{\raise.17ex\hbox{$\sim$}}
+  \newcommand{\techused}[1]{\small \textbf{Tech used:} #1}
+
+  \pagestyle{empty}
+  
+  \noindent\textsf{\LARGE Christian Andrei B. Estioco}\\
+  \textsf{\large BS Computer Science, University of the Philippines-Diliman\\
+  Email: chadestioco@gmail.com $\cdot$ Portfolio: github.com/skytreader}
+  \hline
+
+  \vspace{0.1in}
+  % BEST CRED: Numberphile and Computerphile regular viewer.
+  \framebox[6in][c]{
+    \parbox{6in}{\centering
+      An online and up-to-date version of this document can be found at\\
+      \url{https://github.com/skytreader/chad-cv}. This version was generated at 2018-08-27.
+    }
+  }
+  \vspace{0.2in}
+  \\
+  \resumesection{Work Experience}
+    \begin{itemize}
+      \item \textbf{DevOps/Site Reliability Engineer, Kalibrr (March 2017 - Present).}
+      Improved mean response time of API endpoints some from \ctilde8000
+      milliseconds to \ctilde900 milliseconds by reducing time spent in memory
+      allocation. Reduced the build run time of backend unit tests by 42\% by
+      reconfiguring tests to run in parallel. Helped in the migration of our 
+      entire platform from Linode to GCP/GKE.
+      
+      \techused{Ansible, Angular 1, TypeScript, PostgreSQL, Redis, Elasticsearch,
+      SASS, Bootstrap, Python, Pyramid, Celery, Docker, Kubernetes.}
+
+      \item \textbf{Full Stack Web Developer, Kalibrr (February 2015 - March 2017).}
+      Ensured usability of core features for mobile users, accounting for 62\% of Kalibrr's traffic
+      at the time. Worked closely with Marketing and Design to strengthen acquisition
+      through organic channels: acquired \ctilde100K users in three months with 95\% of
+      acquisitions organic. Built features that helped ensure steady user growth despite seasonal lulls.
+
+      \techused{Ansible, Angular 1, TypeScript, PostgreSQL, Redis, Elasticsearch,
+      SASS, Bootstrap, Python, Pyramid, Celery.}
+      
+      \item \textbf{Research and Development Engineer, Chikka Philippines Inc. (September 2012 - November 2014).}
+      Optimized Chikka's main infrastructure to ensure performance under heavy
+      load. In one instance, I restructured a legacy component from \ctilde700k
+      transactions over 9 hours to \ctilde1.5m transactions over 9 hours by
+      refactoring database bottlenecks to use Redis. Also lead the development
+      of an SMPP gateway, slated for use in more than two-thirds of Chikka's
+      operations at the time.
+
+      \techused{Java, Redis, MySQL, Python, Gevent, Java Servlets, ZeroMQ, SMPP,
+      jQuery, Tornado, CentOS, RHEL, Ubuntu.}
+
+      \item \textbf{Summer Intern, Azeus Systems Philippines Ltd. (April 2011 - May 2011).} Worked on a
+      location-based social networking app for Android based on Google Maps with networking functionalities built
+      on jWebSocket. Designed UI-mockups for the module assigned to my team. Implemented a
+      messaging-like system as well as the map-based features of our module.
+
+      \techused{Java, Android, Servlets, JSP, Google Maps, jWebSocket, Oracle.}
+   \end{itemize}
+
+  \resumesection{Research}
+    \begin{itemize}
+      \item \textbf{Undergraduate researcher, Computer Vision and Machine Intelligence Group (CVMIG), UP-Diliman
+      (June 2011 - April 2012).} We created a system that recognizes Porites from images taken
+      underwater using a search-based-on-texture approach, with a windowed Gabor Filter as an important component
+      of the comparison. We managed an accuracy of 75-77\% on average but we achieved up to 80\% on a smaller
+      window size. On top of this, I worked on possible alternate approaches, one of which lead us to our final
+      algorithm.
+
+      This is the first part of a multi-phase project for the Automated Rapid Reef Assessment System (ARRAS) which
+      concluded in 2015.
+
+      \techused{Java, JavaCV, Swing, Python, OpenCV, Octave.}
+    \end{itemize}
+
+  \resumesection{Hacks and Side-Projects}
+    \begin{itemize}
+      \item \textbf{PyGame Objects.} (\url{https://github.com/skytreader/PyGame-Objects})
+      An experimental framework for building games with PyGame. The design philosophy behind the framework
+      is to make it feel like writing a web MVC app.
+
+      \techused{Python, PyGame.}
+
+      \item \textbf{Alexandria.} (\url{https://github.com/skytreader/alexandria})
+      A simple web app I built to catalog the books in my personal library. The goal is to
+      get a relationship graph among the books I read where relationships are defined
+      by the people who worked on the book.
+
+      \techused{Python, Flask, MySQL, jQuery.}
+
+      \item \textbf{Museician.} (\url{https://github.com/skytreader/museician})
+      A music player for Android that plays songs after a specified delay, allowing
+      users to ``prepare" to play along with the song. Google Play link:
+      \url{https://goo.gl/KZySTx}.
+
+      \techused{Java, Android.}
+    \end{itemize}
+
+  \breather
+  \resumesection{Hobbies and Personal Interests\\}
+  I volunteered for PythonPH, a Python User Group in the Philippines that holds PyConPH. I helped organize PyConPH 2014 and
+  I was a speaker for PyconPH 2015 as well as during some monthly meet-ups. Slides of my talks can be found at \url{https://speakerdeck.com/skytreader}.
+
+  Aside from coding, I enjoy reading artistic literature, making sketches, and practicing Taekwondo. I am also interested in
+  calligraphy and amateur photography. Some of my amateur photographs can be found at \url{http://chadestioco.deviantart.com} .
+  
+\end{document}
