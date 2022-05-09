@@ -20,14 +20,24 @@
   \framebox[6in][c]{
     \parbox{6in}{\centering
       An online and up-to-date version of this document can be found at\\
-      \url{https://github.com/skytreader/chad-cv}. This version was generated at 2018-08-27.
+      \url{https://github.com/skytreader/chad-cv}. This version was generated at 2022-05-09.
     }
   }
   \vspace{0.2in}
   \\
   \resumesection{Work Experience}
     \begin{itemize}
-      \item \textbf{DevOps/Site Reliability Engineer, Kalibrr (March 2017 - Present).}
+      \item \textbf{Senior Backend Gameplay Server Developer, GoodGame Studios (May 2019 - Present).}
+      Fulfilled a hybrid DevOps role for games with over 53 million registered
+      users worldwide. Developed features for both the actual gameplay and the
+      revamped webshop system. Designed infrastructure solutions for features as
+      well as various optimizations; in one project we reduced shop loading time
+      by more than half.
+      
+      \techused{Java, Node, TypeScript, Vue.js, AWS (EC2, Lambda, API Gateway,
+      S3, DynamoDB, etc.), Serverless, MySQL.}
+
+      \item \textbf{DevOps/Site Reliability Engineer, Kalibrr (March 2017 - April 2019).}
       Improved mean response time of API endpoints some from \ctilde8000
       milliseconds to \ctilde900 milliseconds by reducing time spent in memory
       allocation. Reduced the build run time of backend unit tests by 42\% by
@@ -47,8 +57,8 @@
       SASS, Bootstrap, Python, Pyramid, Celery.}
       
       \item \textbf{Research and Development Engineer, Chikka Philippines Inc. (September 2012 - November 2014).}
-      Optimized Chikka's main infrastructure to ensure performance under heavy
-      load. In one instance, I restructured a legacy component from \ctilde700k
+      Optimized the main infrastructure to ensure performance under heavy load.
+      In one instance, I restructured a legacy component from \ctilde700k
       transactions over 9 hours to \ctilde1.5m transactions over 9 hours by
       refactoring database bottlenecks to use Redis. Also lead the development
       of an SMPP gateway, slated for use in more than two-thirds of Chikka's
@@ -82,6 +92,17 @@
 
   \resumesection{Hacks and Side-Projects}
     \begin{itemize}
+      \item \textbf{Exkurzones.} (\url{https://github.com/skytreader/exkurzones})
+      You have arrived at your assignment: a planet held captive by the evil Exkur Empire.
+      Observing from a covert location at the atmosphere, you send your sabotage probe to
+      destroy military outposts and free the planet. Unfortunately, the rebellion's
+      intelligence and equipment is lacking. Can you destroy all the bases before
+      The Empire's counterdefense detects your presence?
+
+      This was created as an entry to the Good Game Jam 2020.
+      
+      \techused{JavaScript, Phaser 3}
+
       \item \textbf{PyGame Objects.} (\url{https://github.com/skytreader/PyGame-Objects})
       An experimental framework for building games with PyGame. The design philosophy behind the framework
       is to make it feel like writing a web MVC app.
